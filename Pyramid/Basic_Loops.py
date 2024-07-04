@@ -550,6 +550,49 @@ def Loop66to71():
             print(j, end=" ")
         print()
 
+    print("loop 67 : ")
+    str = "abcde"
+    for i in range(0, len(str)):
+        for j in range(i,len(str)-1):
+            print(end=" ")
+        for j in range(0,i+1):
+            print(str[j],end=" ")
+        print()
+    
+    print("loop 68 : ")
+    a = 5
+    for i in range(1,a+1):
+        for j in range(1,i+1):
+            print(end="* ")
+        print()
+
+    print("loop 69 : ")
+    a = 5
+    for i in range(1,a+1):
+        for j in range(i,a):
+            print(end=" ")
+        for j in range(1,i+1):
+            print(end="* ")
+        print()
+
+    print("loop 70 : ")
+    str = "ABCDE"
+    for i in range(0,len(str)):
+        for j in range(i,len(str)-1):
+            print(end=" ")
+        for j in range(0,i+1):
+            print(str[j], end=" ")
+        print()
+
+    print("loop 71 : ")
+    str = "abcde"
+    for i in range(len(str)-1,-1,-1):
+        for j in range(i,0,-1):
+            print(end=" ")
+        for j in range(len(str)-1, i-1,-1):
+            print(str[j] , end=" ")
+        print()
+
 
 # Loop1to4()
 # Loop5to8()
